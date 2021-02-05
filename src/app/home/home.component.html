@@ -1,0 +1,27 @@
+
+
+<div class="home-container">
+    <form class="">
+    <div class="input-container">
+      <button class="icon"></button>
+      <input class="input-field" type="text" placeholder="2020/1/1 - 2020/1/1" name="usrnm">
+      <button (click)="clickFunction()" class="icon2"></button>
+    </div>
+    </form>
+
+    
+    <div class="result-container">
+        <span>
+            <h5>Results: {{mail_count}} mail(s)</h5>
+            </span>
+           
+    </div>
+
+
+    <app-mail [mailsFromHomeComponent] = "mailsList"></app-mail>
+</div>
+
+  
+
+
+ 

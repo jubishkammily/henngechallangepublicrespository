@@ -1,0 +1,42 @@
+<div class="mail-container">
+
+    <table class="table">
+        <thead class="table-head">
+          <tr>
+            <th >From</th>
+            <th >To</th>
+            <th >Subject</th>
+            <th >Date <button (click)="toggleArrow()" class={{classIconName}}></button></th>
+          </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngFor="let email of mailsFromHomeComponent">
+          <tr>
+            <th class="cell">
+              <button (click)="toggleExpand(email.id)"  class="icon4"></button>
+              {{email.from}}</th>
+            <td class="cell">{{email.to}}</td>
+            <td class="cell expand-maximum-on-hover">{{email.subject}}</td>
+           <td class="cell lastcell">  <button class="icon3 {{email.attach}}"></button>{{email.date}} <button class="icon_arrow2"></button></td>
+          </tr>
+          <ng-container *ngIf="email.expanded">
+            <tr>
+              <td colspan="4" style="padding-left: 12px"> {{email.body}} </td>  
+            </tr>
+          </ng-container>
+        </ng-container>
+          <!-- <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr> -->
+        </tbody>
+      </table>
+</div>

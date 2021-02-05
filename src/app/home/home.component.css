@@ -1,0 +1,100 @@
+.home-container{
+    padding:100px;
+
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 60%;
+  margin-bottom: 15px;  
+}
+
+.result-container{
+
+    padding-top: 100px;
+
+}
+
+.hr-table{
+    border: 1px solid lightgray;
+}
+
+
+.icon {
+  padding: 10px;
+  padding-left: 100px;
+  background: white;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  background: url('../../assets//icon_calender.svg') no-repeat;
+  background-size: 60% 60%;
+  background-position: center;   
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;  
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-right: none;
+}
+
+.icon2 {
+    padding: 10px;
+    background: white;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    background: url('../../assets//icon_search.svg') no-repeat;
+    background-size: 60% 60%;
+    background-position: center; 
+    background-color: rgb(233, 233, 233);    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 5%;  
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-left: none;
+    
+  
+  }
+
+
+/* Style the input fields */
+.input-field {
+  width: 20%;
+  padding: 10px;
+  outline: none;
+ 
+  height:75px;
+  font-size: 28px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-right: none;
+  border-left: none;
+  
+}
+
+.main-archiver-container{
+   /* background-image: url("../../assets/logo.png") ;
+   height: 400px;
+   width: 100%;
+   background-position: center; */
+
+   background-position: center; 
+}
+
+.main-archiver-container img {
+    
+  }
+
+  .center{
+    margin-left: auto;
+    margin-right: auto;   
+    display: block;
+    margin-top:10%;
+    width: 10%;
+
+  }
+
+
+

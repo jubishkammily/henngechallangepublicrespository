@@ -1,0 +1,144 @@
+
+
+.table-head{
+
+    background-color: rgb(243, 243, 243);
+
+}
+
+.mail-container{
+    font-size: 24px;
+}
+
+
+
+  .cell {
+    max-width: 50px; /* tweak me please */
+    white-space : nowrap;
+    overflow : hidden;
+  }
+  
+  /* .expand-small-on-hover:hover {
+    text-overflow: ellipsis;
+  }
+  
+  .expand-maximum-on-hover:hover {
+    max-width : initial; 
+  } */
+
+  .icon_arrow{
+
+    padding: 10px;
+    padding-left: 100px;
+    background: white;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    background: url('../../assets/icon_arrow01.svg') no-repeat;
+    background-size: 60% 60%;
+    background-position: center;   
+    border: none;
+    outline: none;
+    
+  }
+
+  .icon_arrow2{
+
+    padding: 10px;
+    padding-left: 100px;
+    background: white;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    background: url('../../assets/icon_arrow02.svg') no-repeat;
+    background-size: 60% 60%;
+    background-position: center;   
+    border: none;
+    outline: none;
+    
+  }
+  .lastcell{
+      max-width: 20px;
+  }
+
+  .icon3{
+
+    padding: 10px;
+    padding-left: 100px;
+    background: white;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    background: url('../../assets/icon_clip.svg') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;   
+    border: none;
+    outline: none;
+ 
+
+  }
+
+  .disp{
+      visibility: hidden;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .icon4{
+    padding: 20px;
+    padding-left: 50px;
+    background: white;
+    color: white;
+    /* min-width: 50px; */
+    /* text-align: center; */
+    background: url('../../assets/icon_mail_sp.svg') no-repeat;
+    /* background-size: 100px 100px; */
+    background-position: center;   
+    border: none;
+    outline: none;
+
+  }
+
+
+  tr.hide-table-padding td {
+    padding: 0;
+  }
+  
+  .expand-button {
+      position: relative;
+  }
+  
+  .accordion-toggle .expand-button:after
+  {
+    position: absolute;
+    left:.75rem;
+    top: 50%;
+    transform: translate(0, -50%);
+    content: '-';
+  }
+  .accordion-toggle.collapsed .expand-button:after
+  {
+    content: '+';
+  }
